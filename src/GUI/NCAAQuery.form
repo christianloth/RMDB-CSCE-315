@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.NCAAQuery">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="38" y="49" width="1415" height="645"/>
+    </constraints>
+    <properties>
+      <background color="-15181146"/>
+    </properties>
+    <border type="empty"/>
+    <children>
+      <grid id="55261" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1312257"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <vspacer id="f81e4">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <grid id="3c938" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1312257"/>
+            </properties>
+            <border type="none">
+              <title-color color="-4473925"/>
+            </border>
+            <children>
+              <component id="430" class="javax.swing.JButton" binding="SAVETOCSVButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1312769"/>
+                  <font name="Segoe UI Black"/>
+                  <foreground color="-15181146"/>
+                  <hideActionText value="false"/>
+                  <text value="SAVE TO CSV"/>
+                </properties>
+              </component>
+              <hspacer id="8da">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="53e44" class="javax.swing.JButton" binding="Generate">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1247233"/>
+                  <font name="Segoe UI Black"/>
+                  <foreground color="-15181146"/>
+                  <text value="GENERATE"/>
+                </properties>
+              </component>
+              <grid id="9bc1a" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1312257"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="e6dc8">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <foreground color="-1312257"/>
+                    </properties>
+                    <border type="line"/>
+                    <children/>
+                  </scrollpane>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="318b2" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1246721"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="1af05" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="6" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="140" height="77"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1312513"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="48cee" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1246465"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="3d78f" class="javax.swing.JTextField" binding="searchTextField" default-binding="true">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-1312257"/>
+                          <font name="Segoe UI Black"/>
+                          <foreground color="-15181146"/>
+                          <text value="Search"/>
+                        </properties>
+                      </component>
+                      <grid id="d088d" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-1246721"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="a4dff" class="javax.swing.JButton" binding="button5" default-binding="true">
+                            <constraints>
+                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-1312257"/>
+                              <foreground color="-15181146"/>
+                              <text value="✚"/>
+                            </properties>
+                          </component>
+                          <hspacer id="40f2c">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                          </hspacer>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="44e5f" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1180929"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="16e8a" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <font name="Segoe UI Black"/>
+                      <foreground color="-15181146"/>
+                      <model>
+                        <item value="Select Table 1"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="fa888" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <font name="Segoe UI Black"/>
+                      <foreground color="-15181146"/>
+                      <model>
+                        <item value="Select Attributes"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="d854b" class="javax.swing.JButton" binding="button1" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <foreground color="-4180684"/>
+                      <text value="❌"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="1ed2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1246721"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="5daa3" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <font name="Segoe UI Black"/>
+                      <foreground color="-15181146"/>
+                      <model>
+                        <item value="Select Table 2"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="50744" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <font name="Segoe UI Black"/>
+                      <foreground color="-15181146"/>
+                      <model>
+                        <item value="Select Attributes"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="914cd" class="javax.swing.JButton" binding="button2" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <foreground color="-4180684"/>
+                      <text value="❌"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="2d8b3" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="2" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1115649"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="29895" class="javax.swing.JComboBox" binding="comboBox5" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <font name="Segoe UI Black"/>
+                      <foreground color="-15181146"/>
+                      <model>
+                        <item value="Select Attributes"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <component id="ddbef" class="javax.swing.JButton" binding="button3" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <foreground color="-4180684"/>
+                      <text value="❌"/>
+                    </properties>
+                  </component>
+                  <component id="a113b" class="javax.swing.JComboBox" binding="comboBox6" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <font name="Segoe UI Black"/>
+                      <foreground color="-15181146"/>
+                      <model>
+                        <item value="Select Table 3"/>
+                      </model>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="aaab2" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="5" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1246977"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <vspacer id="602fb">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="5398b" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1312257"/>
+                      <font name="Segoe UI Black"/>
+                      <foreground color="-15181146"/>
+                    </properties>
+                  </component>
+                  <component id="5ed9c" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1246465"/>
+                      <font name="Segoe UI Black"/>
+                      <foreground color="-15181146"/>
+                      <text value="Select Num:"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="28da1" class="javax.swing.JComboBox" binding="comboBox7" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1312257"/>
+                  <font name="Segoe UI Black"/>
+                  <foreground color="-15181146"/>
+                  <model>
+                    <item value="Select Table 4"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="844d2" class="javax.swing.JComboBox" binding="comboBox8" default-binding="true">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1312257"/>
+                  <font name="Segoe UI Black"/>
+                  <foreground color="-15181146"/>
+                  <model>
+                    <item value="Select Attributes"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="e6ac9" class="javax.swing.JButton" binding="button4" default-binding="true">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1312257"/>
+                  <foreground color="-4180684"/>
+                  <text value="❌"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="738ff" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="315Logo.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
